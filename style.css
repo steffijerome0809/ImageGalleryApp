@@ -1,0 +1,164 @@
+a {
+  color: white;
+  font-family: "Megrim", cursive;
+  font-weight: bold;
+}
+
+
+img {
+  border-radius: 20px;
+  overflow: hidden;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+/* Main grid frame from Silva pinterest layout css silvawebdesigns.com */
+#list {
+  width: auto;
+  overflow: hidden;
+  margin-bottom: -1.875em;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 1.8em;
+  -webkit-column-fill: auto;
+  -moz-column-count: 4;
+  -moz-column-gap: 1.8em;
+  -moz-column-fill: auto;
+  column-count: 4;
+  column-gap: 1.8em;
+  column-fill: auto;
+}
+
+.item {
+  background-color: black;
+  margin-bottom: 1.875em;
+  webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  column-break-inside: avoid;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.nav-wrapper {
+  background-color: black;
+}
+
+a.brand-logo {
+  font-size: 4rem;
+  font-family: "Megrim", cursive;
+  font-weight: bold;
+}
+
+input {
+  color: white;
+  align-items: right;
+}
+
+i.large.material-icons {
+  font-size: 3rem;
+}
+
+
+/* .image {
+  width: 600px;
+  height: 300px;
+} */
+
+
+.container {
+  position: relative;
+  /* size of each image on grid */
+  width: 100%;
+}
+
+input#search {
+  font-family: "Megrim", cursive;
+  font-weight: bold;
+  
+}
+
+input#search-mobile {
+  font-family: "Megrim", cursive;
+  font-weight: bold;
+
+}
+
+.overlay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+
+#modal:hover .overlay {
+  opacity: 50%;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+body {
+  background-color: lightgray;
+}
+
+a.dropdown-trigger {
+  color: white;
+  font-family: "Megrim", cursive;
+  font-weight: bold;
+}
+
+
+.sidenav {
+  background-color: black;
+}
+
+i.left {
+  margin-right: 5px;
+}
+
+
+#like-button {
+  background-color: blueviolet;
+  box-shadow: 0 1px 0 darkmagenta;
+  color: white;
+  padding: 0.5em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#like-button:hover {
+  background-color: brown;
+  cursor: pointer;
+}
+
+#like-button:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+@media screen and (max-width: 818px) {
+  a#brandLogo {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  a#brandLogo {
+  font-size: 20px;
+  }
+}
+
+
